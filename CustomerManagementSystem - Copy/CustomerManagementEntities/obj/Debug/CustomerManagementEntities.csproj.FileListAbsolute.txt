@@ -1,0 +1,34 @@
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementEntities\bin\Debug\CustomerManagementEntities.dll.config
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementEntities\bin\Debug\CustomerManagementEntities.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementEntities\bin\Debug\CustomerManagementEntities.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementEntities\bin\Debug\EntityFramework.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementEntities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementEntities\bin\Debug\EntityFramework.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementEntities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementEntities\obj\Debug\CustomerManagementEntities.csproj.AssemblyReference.cache
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementEntities\obj\Debug\CustomerManagementEntities.csproj.CoreCompileInputs.cache
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementEntities\obj\Debug\CustomerManagementEntities.csproj.CopyComplete
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementEntities\obj\Debug\CustomerManagementEntities.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementEntities\obj\Debug\CustomerManagementEntities.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Debug\CustomerManagementEntities.dll.config
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Debug\CustomerManagementEntities.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Debug\CustomerManagementEntities.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Debug\EntityFramework.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Debug\System.Web.Http.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Debug\WebActivatorEx.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Debug\EntityFramework.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Debug\System.Web.Http.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\obj\Debug\CustomerManagementEntities.csproj.AssemblyReference.cache
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\obj\Debug\CustomerManagementEntities.csproj.CoreCompileInputs.cache
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\obj\Debug\CustomerManagementEntities.csproj.CopyComplete
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\obj\Debug\CustomerManagementEntities.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\obj\Debug\CustomerManagementEntities.pdb

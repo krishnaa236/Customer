@@ -1,0 +1,64 @@
+﻿@using CustomerManagementSystem.Areas.CustomerCRUD.Models
+@model UserDetail
+
+@{
+    Layout = "~/Areas/UserCRUD/Views/Shared/_Layout.cshtml";
+}
+@if (TempData["PasswordChanged"] != null)
+{
+    <script src="~/Scripts/Custom/jquery.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script>toastr.success("Password Changed Successfully")</script>
+}
+@if (TempData["ChangeProfile"] != null)
+{
+    <script>toastr.success("Profile Updated Successfully")</script>
+    
+}
+<div class="row mt-3">
+    <div class="col-lg-2 col-md-0"></div>
+    <div class="col-lg-4 col-md-12">
+        <div class="d-flex flex-column align-items-center justify-content-between" style="height:100%">
+            @if (Model.ImageUrl != null)
+            {
+                <img src="@Model.ImageUrl" class="Customer_Detail_image" />
+            }
+            else
+            {
+                <img src="~/Images/24-248253_user-profile-default-image-png-clipart-png-download.png" class="Customer_Detail_image" />
+            }
+            @if (User.Identity.IsAuthenticated)
+            {
+                if (User.IsInRole("Admin")){
+                    <input disabled class="form-control" type="file" id="UserImage"><i disabled class="bi bi-pencil-square" id="ChooseImage"></i>
+                }
+                else
+                {
+                    <input class="form-control" type="file" id="UserImage"><i  class="bi bi-pencil-square" id="ChooseImage"></i>
+                }
+            }
+
+        </div>
+        </div>
+    <div class="col-lg-6 col-md-12">
+        <h2 class="mb-4">Customere Details</h2>
+
+        <p><b>First Name :</b> @Model.FirstName</p>
+        <p><b>Last Name :</b> @Model.LastName</p>
+        <p><b>Email :</b> @Model.Email</p>
+        <p><b>Phone Number :</b> @Model.PhoneNumber</p>
+        <p><b>City: </b> @Model.City</p>
+        <p style="margin-bottom:40px;"><b>Country :</b> @Model.Country</p>
+        @if (User.Identity.IsAuthenticated)
+        {
+            if (User.IsInRole("Admin"))
+            {
+                @Html.ActionLink("Edit Profile", "UserEditProfile", "User", new { @class = "EditProfileDisable", disabled=true })
+            }
+            else
+            {
+                @Html.ActionLink("Edit Profile", "UserEditProfile", "User", new { @class = "EditProfile"})
+            }
+        }
+    </div>
+</div>

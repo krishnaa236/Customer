@@ -1,0 +1,87 @@
+﻿
+
+@using CustomerManagementSystem.Models
+@model CustomerListModel
+@{
+    ViewData["Title"] = "Coustomer Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (TempData["PasswordChanged"] != null)
+{
+
+    <script>toastr.success("Password Changed Successfully")</script>
+}
+@if (TempData["ChangeProfile"] != null)
+{
+
+    <script>toastr.success("profile Changed Successfully")</script>
+}
+<div class="container mt-5">
+    @if (User.Identity.IsAuthenticated)
+    {
+        if (User.IsInRole("Admin"))
+        {
+            <a class="Add_New_Customer" @Html.ActionLink("Add New Customer", "AddCustomer", "Customer")></a>
+        }
+    }
+    <table class="table CustomerList_table" id="CustomerList_table">
+        <thead>
+            <tr>
+                <th scope="col">FirstName</th>
+                <th scope="col">LastName</th>
+                <th scope="col">Email</th>
+                <th scope="col">PhoneNumber</th>
+                <th scope="col">City</th>
+                <th scope="col">Country</th>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    if (User.IsInRole("Admin"))
+                    {
+                        <th scope="col">Action</th>
+                    }
+
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Customer in Model.customers)
+            {
+                <tr>
+                    <td>@Customer.customer_firstname</td>
+                    <td>@Customer.customer_lastname</td>
+                    <td>@Customer.customer_email</td>
+                    <td>@Customer.customer_phonenumber</td>
+                    <td>@Customer.customer_city</td>
+                    <td>@Customer.customer_country</td>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        if (User.IsInRole("Admin"))
+                        {
+                            <td><a style="color:#F88634;" href="Customer/UpdateCustomer/@Customer.customer_id"> <i class="bi bi-pencil-square"></i></a>&nbsp;<a data-bs-toggle="modal" data-bs-target="#DeleteUser"><i onclick="TransferCustomerId(@Customer.customer_id)" class="bi bi-trash "></i></a></td>
+                        }
+                    }
+                </tr>
+            }
+
+
+        </tbody>
+    </table>
+    <div class="modal fade" id="DeleteUser" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input style="display:none" class="Transfer_Customer_id_input" />
+                    <p>Are You Sure To Delete This Customer???</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="DeleteCustomer($('.Transfer_Customer_id_input').val())">Delete Customer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+﻿body {
+}
+
+
+.navbar-brand {
+    color: rgba(0, 0, 0, .55) !important;
+}
+
+.CustomerList_table thead {
+    height: 60px;
+    background: #fdf5fa;
+}
+
+.CustomerList_table tbody tr {
+    height: 50px;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    margin-bottom: 20px;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    margin-top: 20px;
+}
+
+.Add_New_Customer {
+    border: 1px solid #fdf5fa;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: grey;
+}
+
+    .Add_New_Customer:hover {
+        background-color: #fdf5fa;
+        color: grey;
+    }

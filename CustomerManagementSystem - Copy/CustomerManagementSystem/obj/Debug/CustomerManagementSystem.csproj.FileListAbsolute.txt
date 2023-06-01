@@ -1,0 +1,273 @@
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\CustomerManagementSystem.dll.config
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\CustomerManagementSystem.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\CustomerManagementSystem.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\csc.exe
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\csc.rsp
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\csi.exe
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\csi.exe.config
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\csi.rsp
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Console.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Net.Http.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Net.Sockets.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\vbc.exe
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\CustomerManagementEntities.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\EntityFramework.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Buffers.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Memory.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Numerics.Vectors.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Text.Encodings.Web.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Web.Http.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Web.Razor.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\WebGrease.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\CustomerManagementEntities.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\CustomerManagementEntities.dll.config
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\EntityFramework.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Buffers.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Memory.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Numerics.Vectors.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Text.Encodings.Web.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Web.Http.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Web.Razor.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\obj\Debug\CustomerManagementSystem.csproj.AssemblyReference.cache
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\obj\Debug\CustomerManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\obj\Debug\CustomerManagementSystem.csproj.CopyComplete
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\obj\Debug\CustomerManagementSystem.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\obj\Debug\CustomerManagementSystem.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Google.Apis.Admin.Directory.directory_v1.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Google.Apis.Auth.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Google.Apis.Auth.PlatformServices.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Google.Apis.Core.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Google.Apis.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Google.Apis.PlatformServices.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Google.Apis.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Google.Apis.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Google.Apis.Admin.Directory.directory_v1.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Google.Apis.Admin.Directory.directory_v1.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Google.Apis.Auth.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Google.Apis.Auth.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Google.Apis.Core.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\Google.Apis.Core.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\CustomerManagementSystem.Domain.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\CustomerManagementSystem.Domain.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem\bin\CustomerManagementSystem.Domain.dll.config
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\CustomerManagementSystem.dll.config
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\CustomerManagementSystem.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\CustomerManagementSystem.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\csc.exe
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\csc.rsp
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\csi.exe
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\csi.exe.config
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\csi.rsp
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Console.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Net.Http.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Net.Sockets.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\vbc.exe
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\CustomerManagementEntities.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\CustomerManagementSystem.Domain.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\EntityFramework.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Google.Apis.Admin.Directory.directory_v1.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Google.Apis.Auth.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Google.Apis.Auth.PlatformServices.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Google.Apis.Core.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Google.Apis.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Google.Apis.PlatformServices.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Buffers.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Memory.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Numerics.Vectors.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Text.Encodings.Web.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Web.Http.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Web.Razor.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\WebGrease.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\CustomerManagementEntities.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\CustomerManagementEntities.dll.config
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\CustomerManagementSystem.Domain.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\CustomerManagementSystem.Domain.dll.config
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\EntityFramework.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Google.Apis.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Google.Apis.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Google.Apis.Admin.Directory.directory_v1.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Google.Apis.Admin.Directory.directory_v1.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Google.Apis.Auth.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Google.Apis.Auth.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Google.Apis.Core.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Google.Apis.Core.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Buffers.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Memory.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Numerics.Vectors.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Text.Encodings.Web.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Web.Http.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Web.Razor.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\obj\Debug\CustomerManagementSystem.csproj.AssemblyReference.cache
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\obj\Debug\CustomerManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\obj\Debug\CustomerManagementSystem.csproj.CopyComplete
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\obj\Debug\CustomerManagementSystem.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\obj\Debug\CustomerManagementSystem.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\grpc_csharp_ext.x86.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\grpc_csharp_ext.x64.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\libgrpc_csharp_ext.x64.so
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\libgrpc_csharp_ext.x64.dylib
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Grpc.Core.Api.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Grpc.Core.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Grpc.Core.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Grpc.Core.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Grpc.Core.Api.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\Grpc.Core.Api.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem\bin\WebActivatorEx.dll

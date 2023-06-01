@@ -1,0 +1,12 @@
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Release\CustomerManagementEntities.dll.config
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Release\CustomerManagementEntities.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Release\CustomerManagementEntities.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Release\EntityFramework.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Release\EntityFramework.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\obj\Release\CustomerManagementEntities.csproj.AssemblyReference.cache
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\obj\Release\CustomerManagementEntities.csproj.CoreCompileInputs.cache
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\obj\Release\CustomerManagementEntities.csproj.CopyComplete
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\obj\Release\CustomerManagementEntities.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementEntities\obj\Release\CustomerManagementEntities.pdb

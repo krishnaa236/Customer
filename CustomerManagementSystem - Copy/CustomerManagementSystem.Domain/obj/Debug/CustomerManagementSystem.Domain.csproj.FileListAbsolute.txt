@@ -1,0 +1,40 @@
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem.Domain\bin\Debug\CustomerManagementSystem.Domain.dll.config
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem.Domain\bin\Debug\CustomerManagementSystem.Domain.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem.Domain\bin\Debug\CustomerManagementSystem.Domain.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem.Domain\bin\Debug\EntityFramework.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem.Domain\bin\Debug\EntityFramework.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem.Domain\obj\Debug\CustomerManagementSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem.Domain\obj\Debug\CustomerManagementSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem.Domain\obj\Debug\CustomerManagementSystem.Domain.csproj.CopyComplete
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem.Domain\obj\Debug\CustomerManagementSystem.Domain.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem.Domain\obj\Debug\CustomerManagementSystem.Domain.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem.Domain\bin\Debug\CustomerManagementEntities.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem.Domain\bin\Debug\CustomerManagementEntities.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem\CustomerManagementSystem.Domain\bin\Debug\CustomerManagementEntities.dll.config
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\CustomerManagementSystem.Domain.dll.config
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\CustomerManagementSystem.Domain.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\CustomerManagementSystem.Domain.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\CustomerManagementEntities.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\EntityFramework.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\System.Web.Http.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\WebActivatorEx.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\CustomerManagementEntities.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\CustomerManagementEntities.dll.config
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\EntityFramework.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\System.Web.Http.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\obj\Debug\CustomerManagementSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\obj\Debug\CustomerManagementSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\obj\Debug\CustomerManagementSystem.Domain.csproj.CopyComplete
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\obj\Debug\CustomerManagementSystem.Domain.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\obj\Debug\CustomerManagementSystem.Domain.pdb

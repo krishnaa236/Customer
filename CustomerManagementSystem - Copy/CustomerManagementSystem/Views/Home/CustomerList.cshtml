@@ -1,0 +1,40 @@
+﻿
+
+@using CustomerManagementSystem.Models
+@model CustomerListModel
+@{
+    ViewData["Title"] = "Coustomer Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container mt-5">
+    <a class="Add_New_Customer" asp-area="CustomerCRUD" asp-controller="Customer" asp-action="test">Add New Customer</a>
+    <table class="table CustomerList_table" id="CustomerList_table">
+        <thead>
+            <tr>
+                <th scope="col">FirstName</th>
+                <th scope="col">LastName</th>
+                <th scope="col">Email</th>
+                <th scope="col">PhoneNumber</th>
+                <th scope="col">City</th>
+                <th scope="col">Country</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Customer in Model!.customers)
+            {
+                <tr>
+                    <td>@Customer.customer_firstname</td>
+                    <td>@Customer.customer_lastname</td>
+                    <td>@Customer.customer_email</td>
+                    <td>@Customer.customer_phonenumber</td>
+                    <td>@Customer.customer_city</td>
+                    <td>@Customer.customer_country</td>
+                    <td><a style="color:#F88634;"> <i class="bi bi-pencil-square"></i></a>&nbsp;<a data-bs-toggle="modal" data-id="banner.BannerId" data-bs-target="#UserDelete"><i class="bi bi-trash "></i></a></td>
+                </tr>
+            }
+
+
+        </tbody>
+    </table>
+</div>

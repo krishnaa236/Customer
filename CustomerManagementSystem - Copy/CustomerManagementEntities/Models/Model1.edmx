@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="CustomerManagementModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Admin">
+          <Key>
+            <PropertyRef Name="Admin_id" />
+          </Key>
+          <Property Name="Admin_id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Admin_FirstName" Type="varchar" MaxLength="50" />
+          <Property Name="Admin_LastName" Type="varchar" MaxLength="50" />
+          <Property Name="Admin_Email" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Admin_PhoneNumber" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Admin_city" Type="varchar" MaxLength="10" />
+          <Property Name="Admin_country" Type="varchar" MaxLength="10" />
+          <Property Name="created_at" Type="datetime" Nullable="false" />
+          <Property Name="updated_at" Type="datetime" />
+          <Property Name="deleted_at" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Customer">
+          <Key>
+            <PropertyRef Name="customer_id" />
+          </Key>
+          <Property Name="customer_id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="customer_firstname" Type="varchar" MaxLength="20" />
+          <Property Name="customer_lastname" Type="varchar" MaxLength="20" />
+          <Property Name="customer_phonenumber" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="customer_email" Type="varchar" MaxLength="200" Nullable="false" />
+          <Property Name="customer_city" Type="varchar" MaxLength="100" />
+          <Property Name="customer_country" Type="varchar" MaxLength="50" />
+          <Property Name="customer_address" Type="varchar" MaxLength="100" />
+          <Property Name="created_at" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="updated_at" Type="datetime2" Precision="7" />
+          <Property Name="deleted_at" Type="datetime2" Precision="7" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="User_id" />
+          </Key>
+          <Property Name="User_id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="User_name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="password" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="customer_id" Type="bigint" />
+          <Property Name="status" Type="bit" Nullable="false" />
+          <Property Name="created_at" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="updated_at" Type="datetime2" Precision="7" />
+          <Property Name="deleted_at" Type="datetime2" Precision="7" />
+          <Property Name="Role" Type="varchar" MaxLength="20" />
+          <Property Name="Updated_by" Type="bigint" />
+          <Property Name="Admin_id" Type="bigint" />
+          <Property Name="ImageUrl" Type="varchar" MaxLength="2000" />
+        </EntityType>
+        <Association Name="FK_user_Admin">
+          <End Role="Admin" Type="Self.Admin" Multiplicity="0..1" />
+          <End Role="user" Type="Self.user" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Admin">
+              <PropertyRef Name="Admin_id" />
+            </Principal>
+            <Dependent Role="user">
+              <PropertyRef Name="Admin_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_user_Customer1">
+          <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+          <End Role="user" Type="Self.user" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customer">
+              <PropertyRef Name="customer_id" />
+            </Principal>
+            <Dependent Role="user">
+              <PropertyRef Name="customer_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CustomerManagementModelStoreContainer">
+          <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="user" EntityType="Self.user" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_user_Admin" Association="Self.FK_user_Admin">
+            <End Role="Admin" EntitySet="Admin" />
+            <End Role="user" EntitySet="user" />
+          </AssociationSet>
+          <AssociationSet Name="FK_user_Customer1" Association="Self.FK_user_Customer1">
+            <End Role="Customer" EntitySet="Customer" />
+            <End Role="user" EntitySet="user" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CustomerManagementModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Admin">
+          <Key>
+            <PropertyRef Name="Admin_id" />
+          </Key>
+          <Property Name="Admin_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Admin_FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Admin_LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Admin_Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Admin_PhoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Admin_city" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Admin_country" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="created_at" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="updated_at" Type="DateTime" Precision="3" />
+          <Property Name="deleted_at" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="users" Relationship="CustomerManagementModel.FK_user_Admin" FromRole="Admin" ToRole="user" />
+        </EntityType>
+        <EntityContainer Name="CustomerManagementContext" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Admins" EntityType="Self.Admin" />
+          <EntitySet Name="Customers" EntityType="CustomerManagementModel.Customer" />
+          <EntitySet Name="users" EntityType="CustomerManagementModel.user" />
+          <AssociationSet Name="FK_user_Admin" Association="CustomerManagementModel.FK_user_Admin">
+            <End Role="Admin" EntitySet="Admins" />
+            <End Role="user" EntitySet="users" />
+          </AssociationSet>
+          <AssociationSet Name="FK_user_Customer1" Association="CustomerManagementModel.FK_user_Customer1">
+            <End Role="Customer" EntitySet="Customers" />
+            <End Role="user" EntitySet="users" />
+          </AssociationSet>
+          </EntityContainer>
+        <EntityType Name="Customer">
+          <Key>
+            <PropertyRef Name="customer_id" />
+          </Key>
+          <Property Name="customer_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="customer_firstname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="customer_lastname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="customer_phonenumber" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="customer_email" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="customer_city" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="customer_country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="customer_address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="created_at" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="updated_at" Type="DateTime" Precision="7" />
+          <Property Name="deleted_at" Type="DateTime" Precision="7" />
+          <NavigationProperty Name="users" Relationship="CustomerManagementModel.FK_user_Customer1" FromRole="Customer" ToRole="user" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="User_id" />
+          </Key>
+          <Property Name="User_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="User_name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="customer_id" Type="Int64" />
+          <Property Name="status" Type="Boolean" Nullable="false" />
+          <Property Name="created_at" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="updated_at" Type="DateTime" Precision="7" />
+          <Property Name="deleted_at" Type="DateTime" Precision="7" />
+          <Property Name="Role" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Updated_by" Type="Int64" />
+          <Property Name="Admin_id" Type="Int64" />
+          <Property Name="ImageUrl" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Admin" Relationship="CustomerManagementModel.FK_user_Admin" FromRole="user" ToRole="Admin" />
+          <NavigationProperty Name="Customer" Relationship="CustomerManagementModel.FK_user_Customer1" FromRole="user" ToRole="Customer" />
+        </EntityType>
+        <Association Name="FK_user_Admin">
+          <End Type="CustomerManagementModel.Admin" Role="Admin" Multiplicity="0..1" />
+          <End Type="CustomerManagementModel.user" Role="user" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Admin">
+              <PropertyRef Name="Admin_id" />
+            </Principal>
+            <Dependent Role="user">
+              <PropertyRef Name="Admin_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_user_Customer1">
+          <End Type="CustomerManagementModel.Customer" Role="Customer" Multiplicity="0..1" />
+          <End Type="CustomerManagementModel.user" Role="user" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customer">
+              <PropertyRef Name="customer_id" />
+            </Principal>
+            <Dependent Role="user">
+              <PropertyRef Name="customer_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CustomerManagementModelStoreContainer" CdmEntityContainer="CustomerManagementContext">
+          <EntitySetMapping Name="Admins">
+            <EntityTypeMapping TypeName="CustomerManagementModel.Admin">
+              <MappingFragment StoreEntitySet="Admin">
+                <ScalarProperty Name="Admin_id" ColumnName="Admin_id" />
+                <ScalarProperty Name="Admin_FirstName" ColumnName="Admin_FirstName" />
+                <ScalarProperty Name="Admin_LastName" ColumnName="Admin_LastName" />
+                <ScalarProperty Name="Admin_Email" ColumnName="Admin_Email" />
+                <ScalarProperty Name="Admin_PhoneNumber" ColumnName="Admin_PhoneNumber" />
+                <ScalarProperty Name="Admin_city" ColumnName="Admin_city" />
+                <ScalarProperty Name="Admin_country" ColumnName="Admin_country" />
+                <ScalarProperty Name="created_at" ColumnName="created_at" />
+                <ScalarProperty Name="updated_at" ColumnName="updated_at" />
+                <ScalarProperty Name="deleted_at" ColumnName="deleted_at" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Customers">
+            <EntityTypeMapping TypeName="CustomerManagementModel.Customer">
+              <MappingFragment StoreEntitySet="Customer">
+                <ScalarProperty Name="deleted_at" ColumnName="deleted_at" />
+                <ScalarProperty Name="updated_at" ColumnName="updated_at" />
+                <ScalarProperty Name="created_at" ColumnName="created_at" />
+                <ScalarProperty Name="customer_address" ColumnName="customer_address" />
+                <ScalarProperty Name="customer_country" ColumnName="customer_country" />
+                <ScalarProperty Name="customer_city" ColumnName="customer_city" />
+                <ScalarProperty Name="customer_email" ColumnName="customer_email" />
+                <ScalarProperty Name="customer_phonenumber" ColumnName="customer_phonenumber" />
+                <ScalarProperty Name="customer_lastname" ColumnName="customer_lastname" />
+                <ScalarProperty Name="customer_firstname" ColumnName="customer_firstname" />
+                <ScalarProperty Name="customer_id" ColumnName="customer_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="users">
+            <EntityTypeMapping TypeName="CustomerManagementModel.user">
+              <MappingFragment StoreEntitySet="user">
+                <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+                <ScalarProperty Name="Admin_id" ColumnName="Admin_id" />
+                <ScalarProperty Name="Updated_by" ColumnName="Updated_by" />
+                <ScalarProperty Name="Role" ColumnName="Role" />
+                <ScalarProperty Name="deleted_at" ColumnName="deleted_at" />
+                <ScalarProperty Name="updated_at" ColumnName="updated_at" />
+                <ScalarProperty Name="created_at" ColumnName="created_at" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="customer_id" ColumnName="customer_id" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="User_name" ColumnName="User_name" />
+                <ScalarProperty Name="User_id" ColumnName="User_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,66 @@
+﻿@using CustomerManagementSystem.Areas.CustomerCRUD.Models
+@model UserDetail
+
+@{
+    Layout = "~/Areas/UserCRUD/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post">
+
+
+    <div class="mb-3 mt-3">
+        <label for="customer_firstname" class="form-label">First Name</label>
+        <input asp-for="customer_firstname" name="FirstName" type="text" class="form-control FirstName">
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.FirstName)</span>
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Last Name</label>
+        <input type="text" name="LastName" class="form-control LastName" aria-describedby="emailHelp">
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.LastName)</span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="exampleInputEmail1" class="form-label">Email</label>
+        <input type="email" class="form-control Email" name="Email" aria-describedby="emailHelp">
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.Email)</span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="exampleInputEmail1" class="form-label">UserName</label>
+        <input type="text" class="form-control UserName" name="UserName" aria-describedby="emailHelp">
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.UserName)</span>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control Password" name="password">
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.password)</span>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label ">Phone Number</label>
+        <input type="text" class="form-control PhoneNumber" name="PhoneNumber">
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.PhoneNumber)</span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="exampleInputEmail1" class="form-label">City</label>
+        <input type="text" class="form-control City" name="City" aria-describedby="emailHelp">
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.City)</span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="exampleInputEmail1" class="form-label">Country</label>
+        <input type="text" class="form-control Country" name="Country" aria-describedby="emailHelp">
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.Country)</span>
+    </div>
+    <select class="form-select Status mb-3" name="Role" aria-label="Select The Role">
+        <option selected >Select The Role</option>
+        <option value="Admin">Admin</option>
+        <option value="Customer">Customer</option>
+    </select>
+    <select class="form-select Status " aria-label="Select The Status">
+        <option selected>Select the status</option>
+        <option value="true">Active</option>
+        <option value="false">InActive</option>
+
+    </select>
+    <button type="submit" class="btn btn-primary mt-3 ">Add</button>
+    <a class="btn btn-primary mt-3" href="https://localhost:44319/CustomerList/CustomerList">Back</a>
+
+</form>

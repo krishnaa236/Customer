@@ -1,0 +1,15 @@
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Release\CustomerManagementSystem.Domain.dll.config
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Release\CustomerManagementSystem.Domain.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Release\CustomerManagementSystem.Domain.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Release\CustomerManagementEntities.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Release\EntityFramework.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Release\CustomerManagementEntities.pdb
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Release\CustomerManagementEntities.dll.config
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Release\EntityFramework.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\obj\Release\CustomerManagementSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\obj\Release\CustomerManagementSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\obj\Release\CustomerManagementSystem.Domain.csproj.CopyComplete
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\obj\Release\CustomerManagementSystem.Domain.dll
+C:\Users\pci245\Desktop\CustomerManagementSystem - Copy\CustomerManagementSystem.Domain\obj\Release\CustomerManagementSystem.Domain.pdb

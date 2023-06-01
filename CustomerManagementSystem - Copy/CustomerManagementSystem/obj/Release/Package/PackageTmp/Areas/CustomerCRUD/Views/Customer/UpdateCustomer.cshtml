@@ -1,0 +1,74 @@
+﻿@using CustomerManagementSystem.Areas.CustomerCRUD.Models
+@model CustomerDetail
+
+@{
+    Layout = "~/Areas/CustomerCRUD/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post">
+
+
+    <div class="mb-3">
+        <label for="customer_firstname" class="form-label">First Name</label>
+        <input asp-for="customer_firstname" type="text" value="@Model.FirstName" name="FirstName" class="form-control FirstName">
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.FirstName)</span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="exampleInputEmail1" class="form-label">Last Name</label>
+        <input type="text" class="form-control LastName" value="@Model.LastName" name="LastName" aria-describedby="emailHelp">
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.LastName)</span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="exampleInputEmail1" class="form-label">password</label>
+        <input type="text" class="form-control City" aria-describedby="emailHelp" value="@Model.password" name="password">
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.password)</span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="exampleInputEmail1" class="form-label">Email</label>
+        <input type="email" class="form-control Email" value="@Model.Email" name="Email" aria-describedby="emailHelp">
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.Email)</span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="exampleInputEmail1" class="form-label">UserName</label>
+        <input type="text" class="form-control UserName" value="@Model.UserName" name="UserName" aria-describedby="emailHelp">
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.UserName)</span>
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label ">Phone Number</label>
+        <input type="text" class="form-control PhoneNumber" value="@Model.PhoneNumber" name="PhoneNumber">
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.PhoneNumber)</span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="exampleInputEmail1" class="form-label">City</label>
+        <input type="text" class="form-control City" aria-describedby="emailHelp" value="@Model.City" name="City">
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.City)</span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="exampleInputEmail1" class="form-label">Country</label>
+        <input type="text" class="form-control Country" aria-describedby="emailHelp" value="@Model.Country" name="Country">
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.Country)</span>
+    </div>
+    
+        <input hidden type="text" class="form-control " value="@Model.customer_id" name="customer_id">
+      
+    <select class="form-select Status" aria-label="Select The Status" value="@Model.Status"  name="Status">
+        @if (Model.Status == true)
+        {
+            <option value="true">Active</option>
+            <option value="false">InActive</option>
+        }
+        else
+        {
+            <option value="true">Active</option>
+            <option value="false">InActive</option>
+        }
+
+
+    </select>
+    <button type="submit" class="btn btn-primary mt-3">Update Customer</button>
+    <a class="btn btn-primary mt-3 " href="https://localhost:44319/CustomerList/CustomerList">Back</a>
+
+</form>

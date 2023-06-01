@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CustomerManagementModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="Admin_id" />
+    </Key>
+    <Property Name="Admin_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Admin_FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Admin_LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Admin_Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Admin_PhoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Admin_city" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Admin_country" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="created_at" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="updated_at" Type="DateTime" Precision="3" />
+    <Property Name="deleted_at" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="users" Relationship="CustomerManagementModel.FK_user_Admin" FromRole="Admin" ToRole="user" />
+  </EntityType>
+  <EntityContainer Name="CustomerManagementContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Admins" EntityType="Self.Admin" />
+    <EntitySet Name="Customers" EntityType="CustomerManagementModel.Customer" />
+    <EntitySet Name="users" EntityType="CustomerManagementModel.user" />
+    <AssociationSet Name="FK_user_Admin" Association="CustomerManagementModel.FK_user_Admin">
+      <End Role="Admin" EntitySet="Admins" />
+      <End Role="user" EntitySet="users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_user_Customer1" Association="CustomerManagementModel.FK_user_Customer1">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="user" EntitySet="users" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="customer_id" />
+    </Key>
+    <Property Name="customer_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="customer_firstname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="customer_lastname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="customer_phonenumber" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="customer_email" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="customer_city" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="customer_country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="customer_address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="created_at" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="updated_at" Type="DateTime" Precision="7" />
+    <Property Name="deleted_at" Type="DateTime" Precision="7" />
+    <NavigationProperty Name="users" Relationship="CustomerManagementModel.FK_user_Customer1" FromRole="Customer" ToRole="user" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="User_id" />
+    </Key>
+    <Property Name="User_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="User_name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="customer_id" Type="Int64" />
+    <Property Name="status" Type="Boolean" Nullable="false" />
+    <Property Name="created_at" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="updated_at" Type="DateTime" Precision="7" />
+    <Property Name="deleted_at" Type="DateTime" Precision="7" />
+    <Property Name="Role" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Updated_by" Type="Int64" />
+    <Property Name="Admin_id" Type="Int64" />
+    <Property Name="ImageUrl" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Admin" Relationship="CustomerManagementModel.FK_user_Admin" FromRole="user" ToRole="Admin" />
+    <NavigationProperty Name="Customer" Relationship="CustomerManagementModel.FK_user_Customer1" FromRole="user" ToRole="Customer" />
+  </EntityType>
+  <Association Name="FK_user_Admin">
+    <End Type="CustomerManagementModel.Admin" Role="Admin" Multiplicity="0..1" />
+    <End Type="CustomerManagementModel.user" Role="user" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Admin">
+        <PropertyRef Name="Admin_id" />
+      </Principal>
+      <Dependent Role="user">
+        <PropertyRef Name="Admin_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_user_Customer1">
+    <End Type="CustomerManagementModel.Customer" Role="Customer" Multiplicity="0..1" />
+    <End Type="CustomerManagementModel.user" Role="user" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="customer_id" />
+      </Principal>
+      <Dependent Role="user">
+        <PropertyRef Name="customer_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

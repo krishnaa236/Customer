@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3ebd2e87-c268-40f7-a7f6-850972bdeb4c": {
+      "ProjectGuid": "3ebd2e87-c268-40f7-a7f6-850972bdeb4c",
+      "DisplayName": "CustomerManagementSystem",
+      "ColorIndex": 0
+    },
+    "0566b3bf-d995-410c-9a93-9efa712e79db": {
+      "ProjectGuid": "0566b3bf-d995-410c-9a93-9efa712e79db",
+      "DisplayName": "CustomerManagementEntities",
+      "ColorIndex": 1
+    },
+    "919fd655-f067-4ba2-b932-d926e85dd6b4": {
+      "ProjectGuid": "919fd655-f067-4ba2-b932-d926e85dd6b4",
+      "DisplayName": "Script Documents",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "1fe466c4-b09a-45f7-9787-9586e07d9705": {
+      "ProjectGuid": "1fe466c4-b09a-45f7-9787-9586e07d9705",
+      "DisplayName": "CustomerManagementSystem.Domain",
+      "ColorIndex": 3
+    },
+    "4120e686-d37e-495f-b98e-54241dcc36bf": {
+      "ProjectGuid": "4120e686-d37e-495f-b98e-54241dcc36bf",
+      "DisplayName": "WebApplication1",
+      "ColorIndex": 4
+    },
+    "a1c25eb0-6fa1-4a98-966e-a58bb6b5b7d8": {
+      "ProjectGuid": "a1c25eb0-6fa1-4a98-966e-a58bb6b5b7d8",
+      "DisplayName": "WebApplication2",
+      "ColorIndex": 5
+    },
+    "ce192668-5ffa-48bf-b7e0-00d8fce3502b": {
+      "ProjectGuid": "ce192668-5ffa-48bf-b7e0-00d8fce3502b",
+      "DisplayName": "WebApplication3",
+      "ColorIndex": 6
+    },
+    "4f1a042a-a124-4081-afb6-b5d9d35ebec9": {
+      "ProjectGuid": "4f1a042a-a124-4081-afb6-b5d9d35ebec9",
+      "DisplayName": "CustomerManagementAPI123",
+      "ColorIndex": 7
+    },
+    "e20eb2c6-83e2-410a-90bf-765368cbe24e": {
+      "ProjectGuid": "e20eb2c6-83e2-410a-90bf-765368cbe24e",
+      "DisplayName": "CustomerManagementAPIs",
+      "ColorIndex": 8
+    },
+    "1ebcbb1f-9cef-4655-9c98-4bcf132d6939": {
+      "ProjectGuid": "1ebcbb1f-9cef-4655-9c98-4bcf132d6939",
+      "DisplayName": "WebApplication1",
+      "ColorIndex": 9
+    }
+  },
+  "NextColorIndex": 10
+}

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CustomerManagementModelStoreContainer" CdmEntityContainer="CustomerManagementContext">
+    <EntitySetMapping Name="Admins">
+      <EntityTypeMapping TypeName="CustomerManagementModel.Admin">
+        <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="Admin_id" ColumnName="Admin_id" />
+          <ScalarProperty Name="Admin_FirstName" ColumnName="Admin_FirstName" />
+          <ScalarProperty Name="Admin_LastName" ColumnName="Admin_LastName" />
+          <ScalarProperty Name="Admin_Email" ColumnName="Admin_Email" />
+          <ScalarProperty Name="Admin_PhoneNumber" ColumnName="Admin_PhoneNumber" />
+          <ScalarProperty Name="Admin_city" ColumnName="Admin_city" />
+          <ScalarProperty Name="Admin_country" ColumnName="Admin_country" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+          <ScalarProperty Name="updated_at" ColumnName="updated_at" />
+          <ScalarProperty Name="deleted_at" ColumnName="deleted_at" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="CustomerManagementModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="customer_id" ColumnName="customer_id" />
+          <ScalarProperty Name="customer_firstname" ColumnName="customer_firstname" />
+          <ScalarProperty Name="customer_lastname" ColumnName="customer_lastname" />
+          <ScalarProperty Name="customer_phonenumber" ColumnName="customer_phonenumber" />
+          <ScalarProperty Name="customer_email" ColumnName="customer_email" />
+          <ScalarProperty Name="customer_city" ColumnName="customer_city" />
+          <ScalarProperty Name="customer_country" ColumnName="customer_country" />
+          <ScalarProperty Name="customer_address" ColumnName="customer_address" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+          <ScalarProperty Name="updated_at" ColumnName="updated_at" />
+          <ScalarProperty Name="deleted_at" ColumnName="deleted_at" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="CustomerManagementModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="User_id" ColumnName="User_id" />
+          <ScalarProperty Name="User_name" ColumnName="User_name" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="customer_id" ColumnName="customer_id" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+          <ScalarProperty Name="updated_at" ColumnName="updated_at" />
+          <ScalarProperty Name="deleted_at" ColumnName="deleted_at" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+          <ScalarProperty Name="Updated_by" ColumnName="Updated_by" />
+          <ScalarProperty Name="Admin_id" ColumnName="Admin_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

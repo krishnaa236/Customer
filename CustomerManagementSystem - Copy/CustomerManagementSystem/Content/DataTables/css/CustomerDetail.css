@@ -1,0 +1,36 @@
+﻿body {
+}
+.EditProfile {
+    text-decoration: none;
+    color: grey;
+    height: 100px;
+    padding: 10px;
+    width: 100px;
+    border: 1px solid grey;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.EditProfile:hover{
+    background-color:grey;
+    color:white;
+}
+.EditProfileDisable{
+    
+        pointer-events: none; 
+        opacity: 0.5;
+        text-decoration: none;
+        cursor: not-allowed;
+}
+#UserImage {
+    display: None
+}
+
+#ChooseImage{
+    cursor:pointer;
+   
+}
+.Customer_Detail_image {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
